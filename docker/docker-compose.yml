@@ -1,7 +1,7 @@
 services:
 
   catalog-service:
-    depends-on:
+    depends_on:
       - polar-postgres
     image: catalog-service
     container_name: catalog-service
